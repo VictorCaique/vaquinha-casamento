@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vaquinha-casamento/static/css/main.ce7be806.css",
-    "main.js": "/vaquinha-casamento/static/js/main.f4b5b77e.js",
+    "main.js": "/vaquinha-casamento/static/js/main.a5f6db48.js",
     "index.html": "/vaquinha-casamento/index.html",
     "main.ce7be806.css.map": "/vaquinha-casamento/static/css/main.ce7be806.css.map",
-    "main.f4b5b77e.js.map": "/vaquinha-casamento/static/js/main.f4b5b77e.js.map"
+    "main.a5f6db48.js.map": "/vaquinha-casamento/static/js/main.a5f6db48.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7be806.css",
-    "static/js/main.f4b5b77e.js"
+    "static/js/main.a5f6db48.js"
   ]
 }
