@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 export default function App() {
-  const chavePix = "casamento.fulano@gmail.com"; // Substitua pela sua chave PIX
-  const nomeRecebedor = "Fulano e Fulana";
+  const chavePix = "victorcaiqsilva@gmail.com"; // Substitua pela sua chave PIX
+  const nomeRecebedor = "Victor & Natasha";
   const cidade = "Sao Paulo";
 
   const [copiado, setCopiado] = useState(false);
@@ -30,26 +30,27 @@ export default function App() {
   return (
     <div className="min-h-screen bg-pink-50 text-gray-800 flex flex-col items-center p-6">
       <h1 className="text-3xl font-bold text-pink-600 mb-4">
-        Casamento Fulano & Fulana
+        Casamento Victor & Natasha
       </h1>
       <p className="mb-1">
-        <strong>Data:</strong> 12 de Dezembro de 2025
+        <strong>Data:</strong> ?? de Novembro de 2025
       </p>
       <p className="mb-1">
         <strong>Local:</strong> Espaço das Flores - São Paulo, SP
       </p>
       <p className="mb-6">
-        <strong>Horário:</strong> 17h
+        <strong>Horário:</strong> 13h
       </p>
 
       <h2 className="text-xl font-semibold mb-2">
-        Contribua com nossa vaquinha
+        Contribua com o nosso casamento da forma que puder! ❤️🙏
       </h2>
       <img
-        src="/qr-pix.png"
+        src={`${process.env.PUBLIC_URL}/qr-pix.png`}
         alt="QR Code Pix"
         className="w-48 border rounded shadow mb-2"
       />
+
       <p className="text-sm break-all">{chavePix}</p>
       <button
         onClick={copiarChave}
